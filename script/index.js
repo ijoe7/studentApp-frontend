@@ -1,7 +1,7 @@
 
 // document.getElementById("student").addEventListener("click", displayStudents);
 
-// const { default: axios } = require("axios");
+// const axios = require("axios");
 let studentData;
 
 // window.onload = displayStudents;
