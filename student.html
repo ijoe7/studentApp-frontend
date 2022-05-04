@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/index.css">
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <title>Student App</title>
+</head>
+<body style="background: #C9BBAF"  onload="displayStudents()">
+    <div id="main">
+        <img id="head" src="image/image1.jpeg" alt="Student">  
+    </div>
+    <!-- Create Form with button-->
+    <!-- <div id="getBtn">
+        <button id="class" onclick="">Get All Classes</button>
+        <button id="student" onclick="">Get All Students</button>
+    </div> -->
+    <div id="title">All Students</div>
+    <button id="addStudent" onclick="addStudent();">Add Student</button>
+    <div id="allstudents" class="display"></div>
+    <div id="studentForm">
+            <label for="firstName">Firstname:</label>
+            <input type="text" id="firstName" placeholder="Firstname"><br>
+            <label for="lastName">Lastname:</label>
+            <input type="text" id="lastName" placeholder="Lastname"><br>
+            <label for="age">Age:</label>
+            <input type="number" id="age" placeholder="Age"><br>
+            <label for="gender">Gender:</label>
+            <select name="gender" id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="others">Others</option>
+            </select><br>
+            <!-- <button id="add" onclick="addStudent()">Add</button> -->
+            <button id="submitBtn"></button>
+    </div>
+    <div id="title2">Info</div>
+    <div id="eachStudent" class="eachDisplay"></div>
+
+    <!-- Redirect to another page- Get All Classes -->
+    <a id="getBtn" href='./getClass.html' target="_blank">
+        <button >
+            Get Classes
+        </button>
+    </a>
+
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
+    <script src="script/index.js"></script>
+</body>
+</html>

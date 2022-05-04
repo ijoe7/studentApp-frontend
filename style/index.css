@@ -1,0 +1,114 @@
+*, body, html{
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+    margin: 0;
+}
+
+#main
+{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#main #head
+{
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: auto;
+    height: 200px;
+    width: 100%;
+
+    /* max-width: 100%; */
+}
+
+#getBtn
+{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 600px;
+    margin: 20px auto;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    top: 40px;
+    
+}
+
+#class
+{
+    cursor: pointer;
+}
+
+#student
+{
+    cursor: pointer;
+}
+
+#title
+{
+    text-align: center;
+    margin-top: 15px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.display
+{
+    text-transform: capitalize;
+    height: 150px;
+    overflow: scroll; 
+    position: relative; 
+    /* bottom:17.5%; */
+    top: 30%;
+    width:100%;
+    background-color: #f1f1f1;; 
+    opacity: 1;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+    display: none;
+}
+
+#title2
+{
+    text-align: center;
+    position: relative;
+    top: 30px;
+    font-size: larger;
+    font-weight: bolder;
+    display: none;
+}
+
+.eachDisplay
+{
+    text-transform: capitalize;
+    height: 150px;
+    overflow: scroll; 
+    position: relative; 
+    /* bottom:25%; */
+    top: 40px;
+    width:100%; 
+    background-color: #f1f1f1;; 
+    opacity: 1;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+    display: none;
+}
+
+#studentForm
+{
+    justify-content: center;
+    /* display: block; */
+    width: auto;
+    margin: auto 40%;
+    display: none;
+}
+
+#addStudent
+{
+    cursor: pointer;
+}
