@@ -1,4 +1,5 @@
 # Student  Application - frontend
+There is a lot of room for improvement in the frontend of the application.
 
 ## Overview
 Create a web application that allows students to create, read, update, and delete student(s) from a class in a database.
